@@ -1,0 +1,12 @@
+In a given string you should reverse every word, but the words should stay in their places.
+
+Input: Two arguments. Both are ints.
+
+Output: An Int.
+
+Example:
+
+backwardStringByWord('') == ''
+backwardStringByWord('world') == 'dlrow'
+backwardStringByWord('hello world') == 'olleh dlrow'
+backwardStringByWord('hello   world') == 'olleh   dlrow'
