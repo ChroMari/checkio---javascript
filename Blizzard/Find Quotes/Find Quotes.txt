@@ -1,0 +1,12 @@
+You are given a string that consists of characters and a paired number of quotation marks. You need to return an Iterable consisting
+of the texts inside the quotation marks. But choose only quotes with double quotation marks ("). Single quotation marks (') aren’t
+appropriate.
+
+Input: A string.
+
+Output: An iterable.
+
+Example:
+
+findQuotes('"Greetings"') == ['Greetings']
+findQuotes('Hi') == []
